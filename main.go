@@ -1,111 +1,33 @@
 package main
 
 import (
-	"database/sql"
 	"fmt"
-	"log"
-
-	_ "github.com/mattn/go-sqlite3"
+	"io/ioutil"
 )
 
-var DbConnection *sql.DB
-
-type Person struct {
-	Name string
-	Age  int
+type Page struct {
+	Title string
+	Body   []byte
 }
 
-func main(){
-	DbConnection, _ := sql.Open("sqlite3", "./example.sql")
-	defer DbConnection.Close()
-	cmd := `CREATE TABLE IF NOT EXISTS person(
-						name STRING,
-						age INT)`
-	_, err := DbConnection.Exec(cmd)
+func (p *Page) Save() error {
+	filename := p.Title + ".txt"
+	return ioutil.WriteFile(filename, p.Body, 0600)
+}
+
+func loadPage(title string) (*Page, error){
+	filename := title + ".txt"
+	body, err := ioutil.ReadFile(filename)
 	if err != nil {
-		log.Fatalln(err)
+		return nil, err
 	}
+	return &Page{Title: title, Body: body}, nil
+}
 
-	// cmd = `INSERT INTO person (name, age) VALUES (?, ?)`
-	// _, err = DbConnection.Exec(cmd, "Mike", 24)
-	// if err != nil {
-	// 	log.Fatalln(err)
-	// }
-	// cmd = `UPDATE person SET age = ? WHERE name = ?`
-	// _, err = DbConnection.Exec(cmd, 25, "Mike")
-	// if err != nil{
-	// 	log.Fatalln(err)
-	// }
+func main() {
+	p1 := &Page{Title: "test", Body:[]byte("This is a sample page.")}
+	p1.Save()
 
-	// cmd = "SELECT * FROM person"
-	// rows, _ := DbConnection.Query(cmd)
-	// defer rows.Close()
-	// var pp []Person
-	// for rows.Next() {
-	// 	var p Person
-	// 	err := rows.Scan(&p.Name, &p.Age) 
-	// 	if err != nil {
-		// 		fmt.Println(err)
-		// 	}
-		// 	pp = append(pp, p)
-		// }
-		// err = rows.Err()
-		// if err != nil{
-			// 	log.Fatalln(err)
-			// }
-			// for _, p := range pp {
-				// 	fmt.Println(p.Name, p.Age)
-				// }
-				
-	// 			cmd = `INSERT INTO person (name, age) VALUES (?, ?)`
-	// 			_, err = DbConnection.Exec(cmd, "Nancy", 20)
-	// 			if err != nil {
-	// 				log.Fatalln(err)
-	// 			}
-	// 			cmd = `UPDATE person SET age = ? WHERE name = ?`
-	// _, err = DbConnection.Exec(cmd, 25, "Mike")
-	// if err != nil{
-	// 	log.Fatalln(err)
-	// }
-	
-	// cmd = `SELECT * from person where age = ?`
-	// row := DbConnection.QueryRow(cmd, 200)
-	// var p Person
-	// err = row.Scan(&p.Name, &p.Age) 
-	// if err != nil{
-	// 	if err == sql.ErrNoRows {
-	// 		log.Println("No row")
-	// 	} else {
-	// 		log.Println(err)
-	// 	}
-	// }
-	// fmt.Println(p.Name, p.Age)
-
-	// cmd = `DELETE FROM person WHERE name = ?`
-	// _, err = DbConnection.Exec(cmd, "Nancy")
-	// if err != nil{
-	// 	log.Fatalln(err)
-	// }
-	// fmt.Println(err)
-
-	tableName := "person"
-	cmd = fmt.Sprintf(`SELECT * FROM %s`, tableName)
-	rows, _ := DbConnection.Query(cmd)
-	defer rows.Close()
-	var pp []Person
-	for rows.Next() {
-		var p Person
-		err := rows.Scan(&p.Name, &p.Age) 
-		if err != nil {
-				fmt.Println(err)
-			}
-			pp = append(pp, p)
-		}
-		err = rows.Err()
-		if err != nil{
-				log.Fatalln(err)
-			}
-			for _, p := range pp {
-					fmt.Println(p.Name, p.Age)
-				}
+	p2, _ := loadPage(p1.Title) 
+	fmt.Println(string(p2.Body))
 }
