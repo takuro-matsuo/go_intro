@@ -19,6 +19,8 @@ require (
 	golang.org/x/arch v0.0.0-20210127225635-455c95562d18 // indirect
 	golang.org/x/sync v0.0.0-20190423024810-112230192c58
 	golang.org/x/sys v0.0.0-20210124154548-22da62e12c0c // indirect
+	gopkg.in/go-ini/ini.v1 v1.62.0 // indirect
+	gopkg.in/ini.v1 v1.62.0
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	rsc.io/quote v1.5.2
 )
