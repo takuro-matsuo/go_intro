@@ -1,0 +1,142 @@
+2021/02/20 11:40:54 ai.go:73: optimized_trade_params=<nil>
+2021/02/20 11:40:54 bitflyer.go:213: connecting to wss://ws.lightstream.bitflyer.com/json-rpc
+2021/02/20 11:40:56 streamdata.go:19: action=StreamIngestionData, {BTC_USD 2021-02-20T02:40:56.1728341Z 368247 56322.38 56372.36 0.2503 0.2503 12.85205215 3.36139516 56288 11.21597339 11.21597339}
+2021/02/20 11:40:56 streamdata.go:19: action=StreamIngestionData, {BTC_USD 2021-02-20T02:40:56.658353Z 368249 56322.38 56372.36 0.2503 0.2503 12.87205215 3.48139516 56288 11.21597339 11.21597339}
+2021/02/20 11:40:58 streamdata.go:19: action=StreamIngestionData, {BTC_USD 2021-02-20T02:40:58.4972881Z 368253 56322.38 56372.36 0.2503 0.2503 12.72205215 2.91139516 56288 11.21597339 11.21597339}
+2021/02/20 11:40:59 streamdata.go:19: action=StreamIngestionData, {BTC_USD 2021-02-20T02:40:59.0957055Z 368256 56322.38 56380.82 0.2503 0.2503 12.72205215 2.27079516 56288 11.21597339 11.21597339}
+2021/02/20 11:40:59 streamdata.go:19: action=StreamIngestionData, {BTC_USD 2021-02-20T02:40:59.5812872Z 368262 56322.39 56498.4 0.2 0.18 12.56205215 1.90049516 56288 11.21597339 11.21597339}
+2021/02/20 11:41:00 streamdata.go:19: action=StreamIngestionData, {BTC_USD 2021-02-20T02:41:00.3446251Z 368281 56348.13 56390.42 0.2503 0.2503 12.66205215 3.43139516 56288 11.21597339 11.21597339}
+2021/02/20 11:41:01 streamdata.go:19: action=StreamIngestionData, {BTC_USD 2021-02-20T02:41:00.8938637Z 368294 56348.13 56390.42 0.2503 0.2503 12.87205215 3.68139516 56288 11.21597339 11.21597339}
+2021/02/20 11:41:02 streamdata.go:19: action=StreamIngestionData, {BTC_USD 2021-02-20T02:41:01.793666Z 368297 56348.13 56398.87 0.2503 0.2503 12.67205215 3.23109516 56288 11.21597339 11.21597339}
+2021/02/20 11:41:02 streamdata.go:19: action=StreamIngestionData, {BTC_USD 2021-02-20T02:41:02.3784571Z 368304 56348.13 56398.87 0.2503 0.2503 12.52205215 1.79139516 56288 11.21597339 11.21597339}
+2021/02/20 11:41:03 streamdata.go:19: action=StreamIngestionData, {BTC_USD 2021-02-20T02:41:02.9447103Z 368307 56348.13 56398.87 0.2503 0.2503 12.36205215 1.65139516 56288 11.21597339 11.21597339}
+2021/02/20 11:41:04 streamdata.go:19: action=StreamIngestionData, {BTC_USD 2021-02-20T02:41:04.0469526Z 368320 56360.48 56407.33 0.2503 0.2503 12.67205215 3.48139516 56288 11.21597339 11.21597339}
+2021/02/20 11:41:05 streamdata.go:19: action=StreamIngestionData, {BTC_USD 2021-02-20T02:41:05.023976Z 368333 56360.48 56407.33 0.2503 0.2503 11.90205215 2.22139516 56288 11.21597339 11.21597339}
+2021/02/20 11:41:05 streamdata.go:19: action=StreamIngestionData, {BTC_USD 2021-02-20T02:41:05.8325515Z 368346 56360.48 56407.33 0.2503 0.2503 12.38205215 3.48139516 56288 11.21597339 11.21597339}
+2021/02/20 11:41:08 streamdata.go:19: action=StreamIngestionData, {BTC_USD 2021-02-20T02:41:08.065412Z 368350 56348.13 56407.33 0.2503 0.2503 12.67205215 3.48139516 56288 11.21597339 11.21597339}
+2021/02/20 11:41:09 streamdata.go:19: action=StreamIngestionData, {BTC_USD 2021-02-20T02:41:08.9608596Z 368351 56348.13 56416.86 0.2503 0.2503 12.67205215 3.23109516 56288 11.21597339 11.21597339}
+2021/02/20 11:41:09 streamdata.go:19: action=StreamIngestionData, {BTC_USD 2021-02-20T02:41:09.700922Z 368354 56339.68 56416.86 0.2503 0.2503 12.40175215 3.11109516 56288 11.21597339 11.21597339}
+2021/02/20 11:41:10 streamdata.go:19: action=StreamIngestionData, {BTC_USD 2021-02-20T02:41:10.4879644Z 368362 56359.51 56401.81 0.2503 0.2503 12.52205215 2.91139516 56288 11.21597339 11.21597339}
+2021/02/20 11:41:11 streamdata.go:19: action=StreamIngestionData, {BTC_USD 2021-02-20T02:41:10.9435587Z 368363 56359.51 56401.81 0.2503 0.2503 12.52205215 2.77139516 56288 11.21597339 11.21597339}
+2021/02/20 11:41:11 streamdata.go:19: action=StreamIngestionData, {BTC_USD 2021-02-20T02:41:11.5875584Z 368370 56359.51 56401.81 0.2503 0.2503 12.67205215 3.48139516 56288 11.21597339 11.21597339}
+2021/02/20 11:41:15 server.go:3095: http: panic serving [::1]:55329: runtime error: index out of range [12] with length 12
+goroutine 37 [running]:
+net/http.(*conn).serve.func1(0xc000254000)
+	/usr/local/go/src/net/http/server.go:1801 +0x147
+panic(0x45b2fe0, 0xc00051a580)
+	/usr/local/go/src/runtime/panic.go:975 +0x47a
+github.com/markcheno/go-talib.ema(0xc000226180, 0xc, 0xc, 0x1a, 0x3fb2f684bda12f68, 0xc0002261e0, 0xc, 0xc)
+	/Users/takuro/go/src/github.com/markcheno/go-talib/talib.go:114 +0x13b
+github.com/markcheno/go-talib.Macd(0xc000226180, 0xc, 0xc, 0xc, 0x1a, 0x9, 0x4, 0xc00014612c, 0xc000146131, 0xc00025f410, ...)
+	/Users/takuro/go/src/github.com/markcheno/go-talib/talib.go:2008 +0x12f
+go_intro_mrsakai/gotrading/app/models.(*DataFrameCandle).AddMacd(0xc0000c6000, 0xc, 0x1a, 0x9, 0xc0000a7ce0)
+	/Users/takuro/go/src/go_intro_mrsakai/gotrading/app/models/dfcandle.go:186 +0x98
+go_intro_mrsakai/gotrading/app/controllers.apiCandleHandler(0x466db20, 0xc00013c0e0, 0xc00021a100)
+	/Users/takuro/go/src/go_intro_mrsakai/gotrading/app/controllers/webserver.go:162 +0xaef
+go_intro_mrsakai/gotrading/app/controllers.apiMakeHandler.func1(0x466db20, 0xc00013c0e0, 0xc00021a100)
+	/Users/takuro/go/src/go_intro_mrsakai/gotrading/app/controllers/webserver.go:47 +0x84
+net/http.HandlerFunc.ServeHTTP(0xc0000a3110, 0x466db20, 0xc00013c0e0, 0xc00021a100)
+	/usr/local/go/src/net/http/server.go:2042 +0x44
+net/http.(*ServeMux).ServeHTTP(0x48da140, 0x466db20, 0xc00013c0e0, 0xc00021a100)
+	/usr/local/go/src/net/http/server.go:2417 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc00013c000, 0x466db20, 0xc00013c0e0, 0xc00021a100)
+	/usr/local/go/src/net/http/server.go:2843 +0xa3
+net/http.(*conn).serve(0xc000254000, 0x466e660, 0xc000220100)
+	/usr/local/go/src/net/http/server.go:1925 +0x8ad
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2969 +0x36c
+2021/02/20 11:41:15 server.go:3095: http: panic serving [::1]:55330: runtime error: index out of range [12] with length 12
+goroutine 38 [running]:
+net/http.(*conn).serve.func1(0xc0002540a0)
+	/usr/local/go/src/net/http/server.go:1801 +0x147
+panic(0x45b2fe0, 0xc0002148a0)
+	/usr/local/go/src/runtime/panic.go:975 +0x47a
+github.com/markcheno/go-talib.ema(0xc00048c8a0, 0xc, 0xc, 0x1a, 0x3fb2f684bda12f68, 0xc00048c900, 0xc, 0xc)
+	/Users/takuro/go/src/github.com/markcheno/go-talib/talib.go:114 +0x13b
+github.com/markcheno/go-talib.Macd(0xc00048c8a0, 0xc, 0xc, 0xc, 0x1a, 0x9, 0x4, 0xc000482dac, 0xc000482db1, 0xc000550910, ...)
+	/Users/takuro/go/src/github.com/markcheno/go-talib/talib.go:2008 +0x12f
+go_intro_mrsakai/gotrading/app/models.(*DataFrameCandle).AddMacd(0xc0004526e0, 0xc, 0x1a, 0x9, 0xc00007b3e0)
+	/Users/takuro/go/src/go_intro_mrsakai/gotrading/app/models/dfcandle.go:186 +0x98
+go_intro_mrsakai/gotrading/app/controllers.apiCandleHandler(0x466db20, 0xc00042c2a0, 0xc00021a300)
+	/Users/takuro/go/src/go_intro_mrsakai/gotrading/app/controllers/webserver.go:162 +0xaef
+go_intro_mrsakai/gotrading/app/controllers.apiMakeHandler.func1(0x466db20, 0xc00042c2a0, 0xc00021a300)
+	/Users/takuro/go/src/go_intro_mrsakai/gotrading/app/controllers/webserver.go:47 +0x84
+net/http.HandlerFunc.ServeHTTP(0xc0000a3110, 0x466db20, 0xc00042c2a0, 0xc00021a300)
+	/usr/local/go/src/net/http/server.go:2042 +0x44
+net/http.(*ServeMux).ServeHTTP(0x48da140, 0x466db20, 0xc00042c2a0, 0xc00021a300)
+	/usr/local/go/src/net/http/server.go:2417 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc00013c000, 0x466db20, 0xc00042c2a0, 0xc00021a300)
+	/usr/local/go/src/net/http/server.go:2843 +0xa3
+net/http.(*conn).serve(0xc0002540a0, 0x466e660, 0xc000220200)
+	/usr/local/go/src/net/http/server.go:1925 +0x8ad
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2969 +0x36c
+2021/02/20 11:41:15 server.go:3095: http: panic serving [::1]:55334: runtime error: index out of range [12] with length 12
+goroutine 26 [running]:
+net/http.(*conn).serve.func1(0xc000254280)
+	/usr/local/go/src/net/http/server.go:1801 +0x147
+panic(0x45b2fe0, 0xc000497360)
+	/usr/local/go/src/runtime/panic.go:975 +0x47a
+github.com/markcheno/go-talib.ema(0xc000180420, 0xc, 0xc, 0x1a, 0x3fb2f684bda12f68, 0xc000180480, 0xc, 0xc)
+	/Users/takuro/go/src/github.com/markcheno/go-talib/talib.go:114 +0x13b
+github.com/markcheno/go-talib.Macd(0xc000180420, 0xc, 0xc, 0xc, 0x1a, 0x9, 0x4, 0xc00002c53c, 0xc00002c541, 0xc0004dbdb0, ...)
+	/Users/takuro/go/src/github.com/markcheno/go-talib/talib.go:2008 +0x12f
+go_intro_mrsakai/gotrading/app/models.(*DataFrameCandle).AddMacd(0xc000254320, 0xc, 0x1a, 0x9, 0xc000219980)
+	/Users/takuro/go/src/go_intro_mrsakai/gotrading/app/models/dfcandle.go:186 +0x98
+go_intro_mrsakai/gotrading/app/controllers.apiCandleHandler(0x466db20, 0xc0005002a0, 0xc00021a200)
+	/Users/takuro/go/src/go_intro_mrsakai/gotrading/app/controllers/webserver.go:162 +0xaef
+go_intro_mrsakai/gotrading/app/controllers.apiMakeHandler.func1(0x466db20, 0xc0005002a0, 0xc00021a200)
+	/Users/takuro/go/src/go_intro_mrsakai/gotrading/app/controllers/webserver.go:47 +0x84
+net/http.HandlerFunc.ServeHTTP(0xc0000a3110, 0x466db20, 0xc0005002a0, 0xc00021a200)
+	/usr/local/go/src/net/http/server.go:2042 +0x44
+net/http.(*ServeMux).ServeHTTP(0x48da140, 0x466db20, 0xc0005002a0, 0xc00021a200)
+	/usr/local/go/src/net/http/server.go:2417 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc00013c000, 0x466db20, 0xc0005002a0, 0xc00021a200)
+	/usr/local/go/src/net/http/server.go:2843 +0xa3
+net/http.(*conn).serve(0xc000254280, 0x466e660, 0xc000220140)
+	/usr/local/go/src/net/http/server.go:1925 +0x8ad
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2969 +0x36c
+2021/02/20 11:41:16 server.go:3095: http: panic serving [::1]:55335: runtime error: index out of range [12] with length 12
+goroutine 10 [running]:
+net/http.(*conn).serve.func1(0xc000452780)
+	/usr/local/go/src/net/http/server.go:1801 +0x147
+panic(0x45b2fe0, 0xc000214aa0)
+	/usr/local/go/src/runtime/panic.go:975 +0x47a
+github.com/markcheno/go-talib.ema(0xc00048ca20, 0xc, 0xc, 0x1a, 0x3fb2f684bda12f68, 0xc00048ca80, 0xc, 0xc)
+	/Users/takuro/go/src/github.com/markcheno/go-talib/talib.go:114 +0x13b
+github.com/markcheno/go-talib.Macd(0xc00048ca20, 0xc, 0xc, 0xc, 0x1a, 0x9, 0x4, 0xc000482dfc, 0xc000482e01, 0xc000551af0, ...)
+	/Users/takuro/go/src/github.com/markcheno/go-talib/talib.go:2008 +0x12f
+go_intro_mrsakai/gotrading/app/models.(*DataFrameCandle).AddMacd(0xc000452820, 0xc, 0x1a, 0x9, 0xc00007b8c0)
+	/Users/takuro/go/src/go_intro_mrsakai/gotrading/app/models/dfcandle.go:186 +0x98
+go_intro_mrsakai/gotrading/app/controllers.apiCandleHandler(0x466db20, 0xc00042c380, 0xc0000d6200)
+	/Users/takuro/go/src/go_intro_mrsakai/gotrading/app/controllers/webserver.go:162 +0xaef
+go_intro_mrsakai/gotrading/app/controllers.apiMakeHandler.func1(0x466db20, 0xc00042c380, 0xc0000d6200)
+	/Users/takuro/go/src/go_intro_mrsakai/gotrading/app/controllers/webserver.go:47 +0x84
+net/http.HandlerFunc.ServeHTTP(0xc0000a3110, 0x466db20, 0xc00042c380, 0xc0000d6200)
+	/usr/local/go/src/net/http/server.go:2042 +0x44
+net/http.(*ServeMux).ServeHTTP(0x48da140, 0x466db20, 0xc00042c380, 0xc0000d6200)
+	/usr/local/go/src/net/http/server.go:2417 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc00013c000, 0x466db20, 0xc00042c380, 0xc0000d6200)
+	/usr/local/go/src/net/http/server.go:2843 +0xa3
+net/http.(*conn).serve(0xc000452780, 0x466e660, 0xc0004a8140)
+	/usr/local/go/src/net/http/server.go:1925 +0x8ad
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2969 +0x36c
+2021/02/20 11:41:19 streamdata.go:19: action=StreamIngestionData, {BTC_USD 2021-02-20T02:41:19.0559009Z 368374 56359.51 56401.81 0.2503 0.2503 12.52205215 2.91139516 56288 11.21597339 11.21597339}
+2021/02/20 11:41:22 streamdata.go:19: action=StreamIngestionData, {BTC_USD 2021-02-20T02:41:21.8987427Z 368385 56359.51 56416.86 0.2503 0.2503 12.50205215 2.54109516 56288 11.21597339 11.21597339}
+2021/02/20 11:41:22 streamdata.go:19: action=StreamIngestionData, {BTC_USD 2021-02-20T02:41:22.7003937Z 368393 56369.73 56416.86 0.2503 0.2503 12.67205215 3.20139516 56288 11.21597339 11.21597339}
+2021/02/20 11:41:23 streamdata.go:19: action=StreamIngestionData, {BTC_USD 2021-02-20T02:41:23.467629Z 368395 56369.73 56416.86 0.2503 0.2503 12.67205215 3.23109516 56288 11.21597339 11.21597339}
+2021/02/20 11:41:24 streamdata.go:19: action=StreamIngestionData, {BTC_USD 2021-02-20T02:41:24.0670469Z 368398 56369.73 56416.86 0.2503 0.2503 12.67205215 3.48139516 56288 11.21597339 11.21597339}
+2021/02/20 11:41:24 streamdata.go:19: action=StreamIngestionData, {BTC_USD 2021-02-20T02:41:24.6789678Z 368402 56369.73 56416.86 0.2503 0.2503 12.50205215 3.08139516 56288 11.21597339 11.21597339}
+2021/02/20 11:41:25 streamdata.go:19: action=StreamIngestionData, {BTC_USD 2021-02-20T02:41:25.3566707Z 368408 56369.73 56416.86 0.2503 0.2503 12.67205215 3.48139516 56288 11.21597339 11.21597339}
+2021/02/20 11:41:26 streamdata.go:19: action=StreamIngestionData, {BTC_USD 2021-02-20T02:41:26.047472Z 368410 56381.09 56416.86 0.2503 0.2503 12.67205215 3.48139516 56288 11.21597339 11.21597339}
+2021/02/20 11:41:27 streamdata.go:19: action=StreamIngestionData, {BTC_USD 2021-02-20T02:41:26.9918556Z 368419 56381.09 56416.86 0.2503 0.2503 12.45205215 3.23139516 56288 11.21597339 11.21597339}
+2021/02/20 11:41:27 streamdata.go:19: action=StreamIngestionData, {BTC_USD 2021-02-20T02:41:27.80908Z 368423 56381.09 56428.96 0.2503 0.2503 12.67205215 3.23109516 56288 11.21597339 11.21597339}
+2021/02/20 11:41:29 streamdata.go:19: action=StreamIngestionData, {BTC_USD 2021-02-20T02:41:29.1310267Z 368425 56369.73 56428.96 0.2503 0.2503 12.42175215 3.48139516 56288 11.21597339 11.21597339}
+2021/02/20 11:41:30 streamdata.go:19: action=StreamIngestionData, {BTC_USD 2021-02-20T02:41:30.0609829Z 368426 56380.66 56428.96 0.2503 0.2503 12.67205215 3.48139516 56288 11.21597339 11.21597339}
+2021/02/20 11:41:32 streamdata.go:19: action=StreamIngestionData, {BTC_USD 2021-02-20T02:41:32.171105Z 368427 56380.66 56428.96 0.2503 0.2503 12.67205215 2.48139516 56288 11.21597339 11.21597339}
+2021/02/20 11:41:33 streamdata.go:19: action=StreamIngestionData, {BTC_USD 2021-02-20T02:41:33.3927955Z 368428 56380.66 56428.96 0.2503 0.2503 12.67205215 3.48139516 56288 11.21597339 11.21597339}
+2021/02/20 11:41:35 streamdata.go:19: action=StreamIngestionData, {BTC_USD 2021-02-20T02:41:35.2834111Z 368429 56369.73 56428.96 0.2503 0.2503 12.42175215 3.48139516 56288 11.21597339 11.21597339}
+2021/02/20 11:41:36 streamdata.go:19: action=StreamIngestionData, {BTC_USD 2021-02-20T02:41:36.0784569Z 368432 56369.73 56410.43 0.2503 0.2503 12.67205215 3.48139516 56288 11.21597339 11.21597339}
+2021/02/20 11:41:37 streamdata.go:19: action=StreamIngestionData, {BTC_USD 2021-02-20T02:41:37.0466885Z 368436 56359.51 56428.96 0.2503 0.2503 12.42175215 3.23109516 56288 11.21597339 11.21597339}
